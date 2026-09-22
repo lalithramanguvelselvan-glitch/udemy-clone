@@ -1,0 +1,156 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+   font-family:'gabarito',sans-serif;
+}
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: solid black 1px;
+    gap:10px;
+    align-items: center;
+    
+}
+.navbar-s1__title{
+    color:#A435f0;
+}
+.navbar-s2{
+    padding: 10px;
+    width:65%;
+    border:solid black;
+    border-radius: 70px;
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+.navbar-s2 input{
+    border: none;
+    width: 100%;
+    align-items: center;
+}
+.navbar-s2 input:focus{
+    border:none;
+}
+.navbar-s3{
+      display: flex;
+      gap: 10px; 
+      align-items: center;
+     
+}
+.cat{
+    display: flex;
+    padding: 10px;
+    justify-content:space-around;
+    border-bottom: solid black 1px;
+    
+}
+.cat p{
+    background-color: #A435f0;
+    color:white;
+    border-radius: 50px;
+    padding: 10px;
+   
+}
+.img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.recommended h1{
+    margin-left: 10px;
+}
+.recommended p{
+    margin-left: 10px;
+}
+.recommended{
+    padding: 10px;
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+  
+    
+}
+.recommended__container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+}
+.course-card{
+    width: 300px;
+    color:white;
+    background-color: black;
+    
+    
+}
+.course-card img{
+    width: 100%;
+    height: 55%;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.topic{
+    padding: 10px;
+    background-color: orangered;
+      
+}
+.topic-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    color: black;
+    background-color: orangered;
+
+}
+.topic-container p{
+    padding:10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    text-align: center;
+    border: solid black 1px;
+    color:white;
+    background-color: #E99A5B;
+}
+.popular{
+    padding: 10px;
+    color:white;
+    background-color: black;
+}
+.popular-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    background-color: black;
+    border-bottom: solid white 2px;
+}   
+.footer{
+    background-color: gray;
+}
+.footer__one-s1{
+    padding: 10px;
+    display: flex;
+    background-color: grey;
+    color: white;
+    gap: 10px;
+   
+}
+.footer__one-s2{
+ padding: 10px;
+    display: flex;
+    background-color: gray;
+    color: white;
+    gap: 10px;
+}
+.footer__two{
+    display: flex;    
+    justify-content: space-between;
+    background-color: gray;
+    color: white;
+}
+
