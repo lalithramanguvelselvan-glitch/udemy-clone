@@ -83,7 +83,7 @@ body{
     cursor: pointer;
     border: solid #A435f0 1px ;
 }
-}
+
 .cat p:hover{
     transition: 0.5s;
     background-color: transparent;
