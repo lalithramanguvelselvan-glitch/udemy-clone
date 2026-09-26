@@ -1,21 +1,18 @@
 <style>
-    div{
-        background-color: blue;
-        height: 200px;
-        width: 140px;
+    @media screen and (max-width:600px){
+        .one{
+            display:none;
+        }
     }
-    div:hover{
-        transform:rotateY(180deg);
-        transition:2s;
+    @media screen and  (min-width:600px) {
+        .two{
+            display: none;
+        }
     }
-    h1{
-        color: black;
-    }
-    h1:hover{
-        transform: rotateY(180deg);
-        transition: 2s;
-    }
-</style>
-<div>
-<h1>Lalithram</h1>
+</style>    
+<div class="one">
+    <h1>Hi,Hello how are you</h1>
+</div>
+<div class="two">
+    <h1>hi,hello how are you</h1>
 </div>

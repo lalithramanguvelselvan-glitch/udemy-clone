@@ -140,10 +140,9 @@ body{
     flex-wrap: wrap ;
 }
 .course-card{
-    width: 300px;
-    color:white;
-    background-color: black;
-    
+   flex-grow: 1;
+   flex-basis: 20%;
+   margin: 5px;
     
 }
 .course-card img{
@@ -213,3 +212,13 @@ body{
     color: white;
 }
 
+@media screen and (max-width:800px) {
+    body{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:600px) {
+    .course-card{
+        flex-basis: 40%;
+    }
+}
